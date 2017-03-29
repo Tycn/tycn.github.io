@@ -1,13 +1,9 @@
-
-
 ---
 layout: post
 title:  "前端开发中常用命名规则"
-categories: 前端开发
+categories:  前端开发
 tags:  HTML CSS JavaScript
 author: Tycn
-
-
 ---
 
 * content
