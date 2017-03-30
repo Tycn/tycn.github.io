@@ -15,7 +15,9 @@ type: page
 
 ## 友情链接
 
-[jekyll](http://jekyllcn.com/)  |  [github](github.com)  |  [thinktxt](www.thinktxt.com)  |
+[jekyll](http://jekyllcn.com/)\| [github](github.com)\| [thinktxt](www.thinktxt.com)\| 
+
+
 
 ## 留言
 
