@@ -30,16 +30,16 @@ layout: default
             <p>
                 <span id="busuanzi_container_page_pv">阅读量<span id="busuanzi_value_page_pv"></span>次</span>
             </p>
-            <h7>分享到：</h7>
-            {% include fenxiang.html %}
         </div>
         <hr>
         <article itemscope itemtype="http://schema.org/BlogPosting">
         {{content}}
         </article>
-        
+        <h7>分享到：</h7>
+            {% include fenxiang.html %}
+        <!-- 打赏放到这里 -->
         {% include dashang.html %}
-
+        <!-- 打赏放到这里 END-->
         <hr>
 
         {% assign hasSimilar = '' %}
