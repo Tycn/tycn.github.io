@@ -17,7 +17,7 @@ author: Tycn
 
 
 
-1、在node官网下载了node.js v6.11.2  地址：https://nodejs.org/zh-cn/
+1、在node官网下载了node.js v6.11.2  地址：[https://nodejs.org/zh-cn/](https://nodejs.org/zh-cn/)
 
 2、安装好node后在终端检查是否安装正确（显示版本号表示正确）
 
@@ -48,14 +48,14 @@ author: Tycn
 > $ npm install webpack --save-dev
 > ```
 
-6、安装Webpack 开发工具, webpack-dev-server 开发服务，启用localhost:8080
+6、安装Webpack 开发工具, webpack-dev-server 开发服务，启用localhost:8080 监听
 
 > ```
 > $ npm install webpack-dev-server --save-dev
 > # 不加-g，在项目根目录出现node_modules文件夹，内含webpack-dev-server及其依赖包
 > ```
 
-7、启用server，启用浏览器打开[http://localhost:8080/](http://localhost:8080/)  查看页面
+7、启用本地server，启用浏览器打开[http://localhost:8080/](http://localhost:8080/)  监听页面
 
 > ```
 > $ webpack-dev-server
@@ -66,6 +66,7 @@ author: Tycn
 > # 此时在执行 webpack-dev-server 
 > $ webpack-dev-server
 > # 服务开启，可以在http://localhost:8080/ 查看页面
+> # 如果在package.json中配置了： "dev": "webpack-dev-server --inline" ，就可直接执行 $ npm run dev 启动server
 > ```
 
 
